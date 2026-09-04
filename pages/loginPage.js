@@ -17,7 +17,7 @@ export class LoginPage {
   async goto(url) {
     await this.page.goto(url);
   }
-
+}
 //   async enterUsername(username) {
 //     await action.setText(this.page, this.usernameInput, username);
 //   }
@@ -39,4 +39,3 @@ export class LoginPage {
 //   async isErrorVisible() {
 //     return await action.shouldVisibleByXpath(this.page, this.errorMessage.replace('//', ''));
 //   }
-}
