@@ -11,5 +11,5 @@ test('User can login with valid credentials', async ({ page }) => {
   await loginUser.goto(env.url);
   await loginUser.login(login.email, login.password);
   await logout.clickLogout();
-  await page.pause();
+  //await page.pause();
 });

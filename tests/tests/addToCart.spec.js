@@ -15,5 +15,5 @@ test('User can add products to cart and proceed to checkout', async ({ page }) =
   await addToCart.addToCart();
   await addToCart.myaccount();
   await logout.clickLogout();
-  await page.pause();
+  //await page.pause();
 });

@@ -21,5 +21,5 @@ test('User can complete checkout with billing details', async ({ page }) => {
     checkoutData.city,
     checkoutData.postcode
   );
-  await page.pause();
+  //await page.pause();
 });

@@ -11,5 +11,5 @@ test('User can register with a valid email', async ({ page }) => {
   await registerPage.goto(env.url);
   await registerPage.register(register.email);
   await logout.clickLogout();
-  await page.pause();
+  //await page.pause();
 });
